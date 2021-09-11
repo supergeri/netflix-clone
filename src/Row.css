@@ -5,7 +5,6 @@
 
 .row__posters {
   display: flex;
-  overflow: auto;
   overflow-x: auto;
   overflow-y: hidden;
   -webkit-overflow-scrolling: touch;
@@ -13,8 +12,7 @@
 }
 
 .row__posters::-webkit-scrollbar {
-  width: 0px; /* remove scrollbar space */
-  background: transparent; /* optional: just make scrollbar invisible */
+  display: none;
 }
 
 .row__poster {
